@@ -1,0 +1,15 @@
+ubuntu@vcn-vexa-vnic:~/vexa$ docker exec vexa-lite env | sort | grep -Ei 'API|AUTH|USER|IDENT|GATEWAY|AGENT|MEETING'
+ADMIN_API_TOKEN=
+AGENT_WORKER_COMMAND=/usr/local/bin/vexa-agent-worker
+ANTHROPIC_API_KEY=
+ANTHROPIC_AUTH_TOKEN=
+DB_USER=postgres
+INTERNAL_API_SECRET=
+NEXTAUTH_SECRET=vexa-lite-nextauth-secret
+VEXA_AGENT_DEFAULT_SUBJECT=u_live
+VEXA_AGENT_MODEL=
+VEXA_API_KEY=
+VEXA_BOT_API_KEY=
+VEXA_MEETING_MODEL=
+VEXA_PUBLIC_API_URL=http://localhost:8056
+ubuntu@vcn-vexa-vnic:~/vexa$
